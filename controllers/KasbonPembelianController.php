@@ -4,11 +4,11 @@ namespace app\controllers;
 
 use Yii;
 
-class TransaksiPembelianController extends \yii\web\Controller
+class KasbonPembelianController extends \yii\web\Controller
 {
     public function actionIndex()
     {
-        return $this->render('index');
+        return null;
     }
 
     public function actionCreate()

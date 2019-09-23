@@ -19,9 +19,9 @@
         </tr>
     </thead>
     <tbody>
-        <?php for ($i=0; $i < 9; $i++) { ?>
+        <?php for ($i=1; $i < 10; $i++) { ?>
             <tr class="text-center">
-                <td class="text-center">1</td>
+                <td class="text-center"><?= $i ?></td>
                 <td>IV-00<?= $i+1 . $i ?>-00<?= $i ?></td>
                 <td>1<?= $i ?>-0<?= $i ?>-201<?= $i ?></td>
                 <td>1<?= $i ?>-0<?= $i+1 ?>-201<?= $i ?></td>
