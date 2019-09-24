@@ -1,5 +1,3 @@
-<div class="card">
-  <div class="card-body">
 <form id="form">
 	<div class="row">
 
@@ -45,7 +43,7 @@
 			<h3 id="content-h3">Detail Invoice</h3>
 			<div class="form-group">
 				<label for="exampleInput1" class="bmd-label-floating">Tanggal Jatuh Tempo</label>
-				<input type="text" class="form-control" id="exampleInput1">
+				<input type="text" class="form-control datetimepicker" value="10/05/2016"/>
 				<span class="bmd-help">Block Helper.</span>
 			</div>
 			<div class="form-group">
@@ -78,3 +76,21 @@
 
 	</div>
 </div>
+
+<?php $script = <<< JS
+	// javascript for init
+	$('.datetimepicker').datetimepicker({
+			icons: {
+					time: "fa fa-clock-o",
+					date: "fa fa-calendar",
+					up: "fa fa-chevron-up",
+					down: "fa fa-chevron-down",
+					previous: 'fa fa-chevron-left',
+					next: 'fa fa-chevron-right',
+					today: 'fa fa-screenshot',
+					clear: 'fa fa-trash',
+					close: 'fa fa-remove'
+			}
+	});
+JS;
+$this->registerJs($script); ?> 

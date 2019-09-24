@@ -1,7 +1,9 @@
-<div class="row">
-    <div class="col-lg-12">
-        <h1 id="content-h1">Edit Transaksi Pembelian</h1>
+<div class="card card-nav-tabs card-content">
+    <div class="card-header card-header-warning">
+        Agen
     </div>
-</div>
-
-<?= $this->render('_form') ?>
+    <div class="card-body">
+        <h1 id="content-h1" class="card-title">Edit Transaksi Pembelian</h1>
+        <?= $this->render('_form') ?>
+    <div>
+<div>

@@ -1,9 +1,9 @@
 <div class="card card-nav-tabs card-content">
   <div class="card-header card-header-warning">
-    Transaksi
+    Agen
   </div>
   <div class="card-body">
-    <h1 id="content-h1">Pembelian</h1>
+    <h1 id="content-h1" class="card-title">Transaksi Pembelian</h1>
     <button type="button" class="btn btn-primary"><i class="material-icons">add</i> Tambah</button>
     <table class="table" id="content-table">
         <thead>

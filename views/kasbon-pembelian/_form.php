@@ -2,7 +2,6 @@
 	<div class="row">
 
 		<div class="col-lg-12">
-			<h3 id="content-h3">Detail Kasbon</h3>
 			<div class="form-group">
 				<label for="exampleInput1" class="bmd-label-floating">Tanggal Kasbon</label>
 				<input type="text" class="form-control" id="exampleInput1">
