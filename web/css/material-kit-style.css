@@ -1,0 +1,10 @@
+.card-content {
+    margin-top: 60px;
+}
+.card-login .form{
+    min-height: 200px;
+}
+
+.form-lupa-password {
+    flex: 1 1 auto;
+}
