@@ -3,9 +3,11 @@
 use yii\helpers\Html;
 use app\assets\MaterialKitAsset;
 use app\assets\OnlineAsset;
+use app\assets\StyleAsset;
 
 MaterialKitAsset::register($this);
 OnlineAsset::register($this);
+StyleAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

@@ -1,3 +1,5 @@
+<div class="card">
+  <div class="card-body">
 <form id="form">
 	<div class="row">
 
@@ -73,3 +75,6 @@
   <button type="submit" class="btn btn-success"><i class="material-icons">done</i> Submit</button>
   <button type="submit" class="btn btn-danger"><i class="material-icons">close</i> Batal</button>
 </form>
+
+	</div>
+</div>
