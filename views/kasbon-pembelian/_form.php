@@ -4,7 +4,7 @@
 		<div class="col-lg-12">
 			<div class="form-group">
 				<label for="exampleInput1" class="bmd-label-floating">Tanggal Kasbon</label>
-				<input type="text" class="form-control" id="exampleInput1">
+				<input type="text" class="form-control datetimepicker" value="10/05/2016"/>
 				<span class="bmd-help">Block Helper.</span>
 			</div>
 			<div class="form-group">

@@ -5,7 +5,7 @@
   <div class="card-body">
     <h1 id="content-h1" class="card-title">Transaksi Pembelian</h1>
     <button type="button" class="btn btn-primary"><i class="material-icons">add</i> Tambah</button>
-    <table class="table" id="content-table">
+    <table class="table with-overflow" id="content-table">
         <thead>
             <tr class="text-center">
                 <th>#</th>
@@ -25,14 +25,14 @@
                     <td>1<?= $i ?>-0<?= $i+1 ?>-201<?= $i ?></td>
                     <td>Rp. 99.225.00,-</td>
                     <td class="td-actions">
-                        <button type="button" rel="tooltip" class="btn btn-info btn-fab btn-fab-mini btn-simple">
+                        <button type="button" rel="tooltip" class="btn btn-info btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Lihat">
                             <i class="material-icons">remove_red_eye</i>
                         </button>
-                        <button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple">
+                        <button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
                             <i class="material-icons">edit</i>
                         </button>
-                        <button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal">
-                            <i class="material-icons">delete</i>
+                        <button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal" title="" data-placement="bottom" data-original-title="Batal">
+                            <i class="material-icons">close</i>
                         </button>
                     </td>
                 </tr>

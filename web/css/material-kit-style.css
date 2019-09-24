@@ -8,3 +8,15 @@
 .form-lupa-password {
     flex: 1 1 auto;
 }
+
+.with-overflow {
+    overflow: auto;
+    display: table;
+}
+
+@media only screen and (max-width: 600px) {
+    .with-overflow {
+        overflow: auto;
+        display: inline-block;
+    }
+  }

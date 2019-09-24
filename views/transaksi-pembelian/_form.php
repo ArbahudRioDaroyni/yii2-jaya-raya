@@ -2,7 +2,7 @@
 	<div class="row">
 
 		<div class="col-lg-6">
-			<h3 id="content-h3">Mitra</h3>
+			<h3 id="content-h3" class="card-title">Mitra</h3>
 			<div class="form-group">
 				<label for="exampleInput1" class="bmd-label-floating">Nama</label>
 				<input type="text" class="form-control" id="exampleInput1">
@@ -21,7 +21,7 @@
 		</div>
 
 		<div class="col-lg-6">
-			<h3 id="content-h3">Petani</h3>
+			<h3 id="content-h3" class="card-title">Petani</h3>
 			<div class="form-group">
 				<label for="exampleInput1" class="bmd-label-floating">Nama</label>
 				<input type="text" class="form-control" id="exampleInput1">
@@ -40,7 +40,7 @@
 		</div>
 
 		<div class="col-lg-12">
-			<h3 id="content-h3">Detail Invoice</h3>
+			<h3 id="content-h3" class="card-title">Detail Invoice</h3>
 			<div class="form-group">
 				<label for="exampleInput1" class="bmd-label-floating">Tanggal Jatuh Tempo</label>
 				<input type="text" class="form-control datetimepicker" value="10/05/2016"/>

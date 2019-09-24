@@ -95,7 +95,7 @@ StyleAsset::register($this);
         </ul>
       </nav>
       <div class="copyright float-right">
-        &copy; My Company <?= date('Y') ?>
+        &copy; PT. JAYA RAYA INDONESIA <?= date('Y') ?>
       </div>
     </div>
   </footer>

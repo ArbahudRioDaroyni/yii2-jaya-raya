@@ -79,7 +79,7 @@
 
 			<div class="col-md-12">
 				<h2 id="content-h2" class="card-title">Detail Kasbon</h2>
-				<table class="table" id="content-table">
+				<table class="table with-overflow" id="content-table">
 					<thead>
 						<tr class="text-center">
 							<th>#</th>
@@ -99,11 +99,14 @@
 									<td>Beli Ita Itu Disana Disini</td>
 									<td>Rp. 99.225.00,-</td>
 									<td class="td-actions">
-										<button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple">
+										<button type="button" rel="tooltip" class="btn btn-info btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Lihat">
+											<i class="material-icons">remove_red_eye</i>
+										</button>
+										<button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
 											<i class="material-icons">edit</i>
 										</button>
-										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal">
-											<i class="material-icons">delete</i>
+										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal" title="" data-placement="bottom" data-original-title="Batal">
+											<i class="material-icons">close</i>
 										</button>
 									</td>
 								</tr>
@@ -115,20 +118,25 @@
 									<td>Pelunasan</td>
 									<td>Rp. 99.225.00,-</td>
 									<td class="td-actions">
-										<button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple">
+										<button type="button" rel="tooltip" class="btn btn-info btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Lihat">
+											<i class="material-icons">remove_red_eye</i>
+										</button>
+										<button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
 											<i class="material-icons">edit</i>
 										</button>
-										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal">
-											<i class="material-icons">delete</i>
+										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal" title="" data-placement="bottom" data-original-title="Batal">
+											<i class="material-icons">close</i>
 										</button>
 									</td>
 								</tr>
 					</tbody>
 				</table>
-				<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="material-icons">add</i> Tambah Kasbon</button>
-				<button type="submit" class="btn btn-success"><i class="material-icons">done</i> Pelunasan</button>
 			</div>
-
+			<div class="col-md-12">
+			<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="material-icons">add</i> Tambah Kasbon</button>
+			<button type="submit" class="btn btn-success"><i class="material-icons">done</i> Pelunasan</button>
+			</div>
+			
 		</div>
     <div>
 <div>
@@ -141,3 +149,21 @@
 		'modalBtnAccept' => 'Tambah!',
 		'modalBtnDecline' => 'Batal!',
 ]); ?>
+
+<?php $script = <<< JS
+	// javascript for init
+	$('.datetimepicker').datetimepicker({
+		icons: {
+			time: "fa fa-clock-o",
+			date: "fa fa-calendar",
+			up: "fa fa-chevron-up",
+			down: "fa fa-chevron-down",
+			previous: 'fa fa-chevron-left',
+			next: 'fa fa-chevron-right',
+			today: 'fa fa-screenshot',
+			clear: 'fa fa-trash',
+			close: 'fa fa-remove'
+		}
+	});
+JS;
+$this->registerJs($script); ?> 
