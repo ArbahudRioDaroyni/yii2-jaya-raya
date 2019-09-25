@@ -105,7 +105,7 @@
 										<button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
 											<i class="material-icons">edit</i>
 										</button>
-										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal" title="" data-placement="bottom" data-original-title="Batal">
+										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#modalAlert" title="" data-placement="bottom" data-original-title="Batal">
 											<i class="material-icons">close</i>
 										</button>
 									</td>
@@ -124,7 +124,7 @@
 										<button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
 											<i class="material-icons">edit</i>
 										</button>
-										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal" title="" data-placement="bottom" data-original-title="Batal">
+										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#modalAlert" title="" data-placement="bottom" data-original-title="Batal">
 											<i class="material-icons">close</i>
 										</button>
 									</td>
@@ -145,9 +145,17 @@
 
 <?= $this->render(
 'modal-kasbon.php', [
-		'modalHeader' => '<h3 id="content-h3" class="card-title">Tambah Kasbon Pembelian</h3>',
-		'modalBtnAccept' => 'Tambah!',
-		'modalBtnDecline' => 'Batal!',
+	'modalHeader' => '<h3 id="content-h3" class="card-title">Tambah Kasbon Pembelian</h3>',
+	'modalBtnAccept' => 'Tambah!',
+	'modalBtnDecline' => 'Batal!',
+]); ?>
+
+<?= $this->render(
+'modal-alert.php', [
+    'modalHeader' => 'Batalkan Transaksi',
+    'modalBody' => 'Apa anda yakin ingin membatalkan transaksi ?',
+    'modalBtnAccept' => 'Ya, Batalkan!',
+    'modalBtnDecline' => 'Batal.',
 ]); ?>
 
 <?php $script = <<< JS

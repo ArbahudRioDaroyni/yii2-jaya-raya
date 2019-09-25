@@ -31,7 +31,7 @@
                         <button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
                             <i class="material-icons">edit</i>
                         </button>
-                        <button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#myModal" title="" data-placement="bottom" data-original-title="Batal">
+                        <button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#modalAlert" title="" data-placement="bottom" data-original-title="Batal">
                             <i class="material-icons">close</i>
                         </button>
                     </td>
@@ -43,9 +43,9 @@
 </div>
 
 <?= $this->render(
-    'modal.php', [
-        'modalHeader' => 'Hapus Transaksi',
-        'modalBody' => 'Apa anda yakin ingin menghapus transaksi ?',
-        'modalBtnAccept' => 'Ya, Hapus!',
-        'modalBtnDecline' => 'Batal.',
-    ]); ?>
+'modal-alert.php', [
+    'modalHeader' => 'Hapus Transaksi',
+    'modalBody' => 'Apa anda yakin ingin menghapus transaksi ?',
+    'modalBtnAccept' => 'Ya, Hapus!',
+    'modalBtnDecline' => 'Batal.',
+]); ?>
