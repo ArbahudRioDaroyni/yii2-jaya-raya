@@ -83,6 +83,7 @@
 						</tr>
 					</tbody>
 				</table>
+				<button type="submit" class="btn btn-warning"><i class="material-icons">edit</i> Edit</button>
 			</div>
 
 			<div class="col-md-12">

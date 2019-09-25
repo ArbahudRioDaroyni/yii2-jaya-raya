@@ -10,14 +10,20 @@
             <p class="description text-center">Masukkan email untuk konfirmasi</p>
             <div class="card-body">
                 <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">
-                    <i class="material-icons">mail</i>
-                    </span>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                        <i class="material-icons">lock_outline</i>
+                        </span>
+                    </div>
+                    <div class="form-group label-floating has-danger">
+                        <label for="examplePassword1" class="bmd-label-floating">Password</label>
+                        <input type="password" class="form-control" />
+                        <span class="form-control-feedback">
+                            <i class="material-icons">clear</i>
+                        </span>
+                        <span class="bmd-help text-danger">Password Wrong!.</span>
+                    </div>
                 </div>
-                    <input type="email" class="form-control" placeholder="Email...">
-                </div>
-            </div>
             <div class="footer text-center">
                 <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg">Kirim Verifikasi</a>
             </div>
