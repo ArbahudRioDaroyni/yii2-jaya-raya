@@ -16,12 +16,12 @@
                         </span>
                     </div>
                     <div class="form-group label-floating has-danger">
-                        <label for="examplePassword1" class="bmd-label-floating">Password</label>
-                        <input type="password" class="form-control" />
+                        <label for="exampleEmail1" class="bmd-label-floating">Email</label>
+                        <input type="email" class="form-control" />
                         <span class="form-control-feedback">
                             <i class="material-icons">clear</i>
                         </span>
-                        <span class="bmd-help text-danger">Password Wrong!.</span>
+                        <span class="bmd-help text-danger">Email Wrong!.</span>
                     </div>
                 </div>
             <div class="footer text-center">
