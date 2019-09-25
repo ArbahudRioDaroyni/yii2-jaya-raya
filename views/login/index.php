@@ -21,28 +21,32 @@
             <p class="description text-center">Login untuk memulai</p>
             <div class="card-body">
                 <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">
-                    <i class="material-icons">face</i>
-                    </span>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                        <i class="material-icons">face</i>
+                        </span>
+                    </div>
+                    <div class="form-group label-floating has-success">
+                        <label for="exampleInput1" class="bmd-label-floating">Username</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                        <span class="form-control-feedback">
+                            <i class="material-icons">done</i>
+                        </span>
+                    </div>
                 </div>
-                    <input type="text" class="form-control" placeholder="First Name...">
-                </div>
-                <!-- <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">
-                    <i class="material-icons">mail</i>
-                    </span>
-                </div>
-                <input type="email" class="form-control" placeholder="Email...">
-                </div> -->
                 <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text">
-                    <i class="material-icons">lock_outline</i>
-                    </span>
-                </div>
-                    <input type="password" class="form-control" placeholder="Password...">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                        <i class="material-icons">lock_outline</i>
+                        </span>
+                    </div>
+                    <div class="form-group label-floating has-danger">
+                        <label for="examplePassword1" class="bmd-label-floating">Password</label>
+                        <input type="password" class="form-control" />
+                        <span class="form-control-feedback">
+                            <i class="material-icons">clear</i>
+                        </span>
+                    </div>
                 </div>
             </div>
             <div class="footer text-center">
