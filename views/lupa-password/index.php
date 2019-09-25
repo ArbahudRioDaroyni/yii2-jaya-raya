@@ -24,7 +24,7 @@
                         <span class="bmd-help text-danger">Email Wrong!.</span>
                     </div>
                 </div>
-            <div class="footer text-center">
+            <div class="footer text-center" style="margin-top: 12px;">
                 <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg">Kirim Verifikasi</a>
             </div>
             </form>
