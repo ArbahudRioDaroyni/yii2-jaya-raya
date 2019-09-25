@@ -1,13 +1,10 @@
 <?php
 
 use yii\helpers\Html;
-use app\assets\MaterialKitAsset;
-use app\assets\OnlineAsset;
-use app\assets\StyleAsset;
 
-MaterialKitAsset::register($this);
-OnlineAsset::register($this);
-StyleAsset::register($this);
+app\assets\MaterialKitAsset::register($this);
+app\assets\OnlineAsset::register($this);
+app\assets\StyleAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -50,26 +47,6 @@ StyleAsset::register($this);
                 <i class="material-icons">content_paste</i> Penjualan
               </a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Download
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook">
-              <i class="fa fa-facebook-square"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram">
-              <i class="fa fa-instagram"></i>
-            </a>
           </li>
         </ul>
       </div>

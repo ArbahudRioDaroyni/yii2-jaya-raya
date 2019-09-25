@@ -1,3 +1,7 @@
+<?php
+app\assets\MaterialKitDateTimePickerAsset::register($this);
+?>
+
 <form id="form">
 	<div class="row">
 
@@ -80,17 +84,17 @@
 <?php $script = <<< JS
 	// javascript for init
 	$('.datetimepicker').datetimepicker({
-			icons: {
-					time: "fa fa-clock-o",
-					date: "fa fa-calendar",
-					up: "fa fa-chevron-up",
-					down: "fa fa-chevron-down",
-					previous: 'fa fa-chevron-left',
-					next: 'fa fa-chevron-right',
-					today: 'fa fa-screenshot',
-					clear: 'fa fa-trash',
-					close: 'fa fa-remove'
-			}
+		icons: {
+			time: "fa fa-clock-o",
+			date: "fa fa-calendar",
+			up: "fa fa-chevron-up",
+			down: "fa fa-chevron-down",
+			previous: 'fa fa-chevron-left',
+			next: 'fa fa-chevron-right',
+			today: 'fa fa-screenshot',
+			clear: 'fa fa-trash',
+			close: 'fa fa-remove'
+		}
 	});
 JS;
 $this->registerJs($script); ?> 

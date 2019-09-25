@@ -1,3 +1,14 @@
+<?php
+app\assets\MaterialKitDateTimePickerAsset::register($this);
+?>
+<nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Transaksi Pembelian</a></li>
+    <li class="breadcrumb-item active" aria-current="page">View</li>
+  </ol>
+</nav>
+
 <div class="card card-nav-tabs card-content">
     <div class="card-header card-header-warning">
         Agen
@@ -132,16 +143,15 @@
 					</tbody>
 				</table>
 			</div>
+
 			<div class="col-md-12">
-			<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="material-icons">add</i> Tambah Kasbon</button>
-			<button type="submit" class="btn btn-success"><i class="material-icons">done</i> Pelunasan</button>
+				<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="material-icons">add</i> Tambah Kasbon</button>
+				<button type="submit" class="btn btn-success"><i class="material-icons">done</i> Pelunasan</button>
 			</div>
 			
 		</div>
     <div>
 <div>
-
-
 
 <?= $this->render(
 'modal-kasbon.php', [
