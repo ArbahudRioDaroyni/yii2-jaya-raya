@@ -1,6 +1,3 @@
-<?php
-app\assets\MaterialKitDateTimePickerAsset::register($this);
-?>
 <nav aria-label="breadcrumb" role="navigation">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -167,6 +164,10 @@ app\assets\MaterialKitDateTimePickerAsset::register($this);
     'modalBtnAccept' => 'Ya, Batalkan!',
     'modalBtnDecline' => 'Batal.',
 ]); ?>
+
+<?php
+app\assets\MaterialKitDateTimePickerAsset::register($this);
+?>
 
 <?php $script = <<< JS
 	// javascript for init
