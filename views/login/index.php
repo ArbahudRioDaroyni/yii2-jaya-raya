@@ -4,7 +4,7 @@
             <div class="col-lg-4 col-md-6 ml-auto mr-auto">
                 <div class="card card-login">
                     <form class="form" method="" action="">
-                    <div class="card-header card-header-primary text-center">
+                    <div class="card-header card-header-info text-center">
                         <h4 class="card-title">Login</h4>
                         <div class="social-line">
                         <a href="#pablo" class="btn btn-just-icon btn-link">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="footer text-center" style="margin-top: 12px;">
-                        <a href="#pablo" class="btn btn-primary btn-link btn-wd btn-lg">Login</a>
+                        <a href="#pablo" class="btn btn-info btn-link btn-wd btn-lg">Login</a>
                     </div>
                     </form>
                 </div>
