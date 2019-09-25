@@ -48,6 +48,22 @@ app\assets\StyleAsset::register($this);
               </a>
             </div>
           </li>
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">face</i> User ABC
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="./index.html" class="dropdown-item">
+                <i class="material-icons">mood</i> Profile
+              </a>
+              <a href="https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html" class="dropdown-item">
+                Login
+              </a>
+              <a href="https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html" class="dropdown-item">
+                Logout
+              </a>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
