@@ -83,7 +83,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<button type="submit" class="btn btn-warning"><i class="material-icons">edit</i> Edit</button>
+				<a href="./update" class="btn btn-warning"><i class="material-icons">edit</i> Edit</a>
 			</div>
 
 			<div class="col-md-12">
@@ -108,15 +108,15 @@
 									<td>Beli Ita Itu Disana Disini</td>
 									<td>Rp. 99.225.00,-</td>
 									<td class="td-actions">
-										<button type="button" rel="tooltip" class="btn btn-info btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Lihat">
+										<a href="../kasbon-pembelian/view" rel="tooltip" class="btn btn-info btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Lihat">
 											<i class="material-icons">remove_red_eye</i>
-										</button>
-										<button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
+										</a>
+										<a href="../kasbon-pembelian/edit" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
 											<i class="material-icons">edit</i>
-										</button>
-										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#modalAlert" title="" data-placement="bottom" data-original-title="Batal">
+										</a>
+										<a href="javascript:void(0)" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#modalAlert" title="" data-placement="bottom" data-original-title="Batal">
 											<i class="material-icons">close</i>
-										</button>
+										</a>
 									</td>
 								</tr>
 							<?php } ?>
@@ -127,15 +127,15 @@
 									<td>Pelunasan</td>
 									<td>Rp. 99.225.00,-</td>
 									<td class="td-actions">
-										<button type="button" rel="tooltip" class="btn btn-info btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Lihat">
+										<a href="../kasbon-pembelian/view" rel="tooltip" class="btn btn-info btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Lihat">
 											<i class="material-icons">remove_red_eye</i>
-										</button>
-										<button type="button" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
+										</a>
+										<a href="../kasbon-pembelian/edit" rel="tooltip" class="btn btn-warning btn-fab btn-fab-mini btn-simple" title="" data-placement="bottom" data-original-title="Edit">
 											<i class="material-icons">edit</i>
-										</button>
-										<button type="button" rel="tooltip" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#modalAlert" title="" data-placement="bottom" data-original-title="Batal">
+										</a>
+										<a href="javascript:void(0)" class="btn btn-danger btn-fab btn-fab-mini btn-simple" data-toggle="modal" data-target="#modalAlert" title="" data-placement="bottom" data-original-title="Batal">
 											<i class="material-icons">close</i>
-										</button>
+										</a>
 									</td>
 								</tr>
 					</tbody>
@@ -144,7 +144,7 @@
 
 			<div class="col-md-12">
 				<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="material-icons">add</i> Tambah Kasbon</button>
-				<button type="submit" class="btn btn-success"><i class="material-icons">done</i> Pelunasan</button>
+				<button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal"><i class="material-icons">done</i> Pelunasan</button>
 			</div>
 			
 		</div>

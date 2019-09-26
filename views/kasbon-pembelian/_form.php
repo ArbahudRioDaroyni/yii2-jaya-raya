@@ -21,6 +21,9 @@
 		
 
 	</div>
-  <button type="submit" class="btn btn-success"><i class="material-icons">done</i> Submit</button>
-  <button type="submit" class="btn btn-danger" data-dismiss="modal"><i class="material-icons">close</i> Batal</button>
+	
+	<div class="footer" style="margin-top: 12px;">
+		<button type="submit" class="btn btn-success"><i class="material-icons">done</i> Submit</button>
+		<button type="submit" class="btn btn-danger"><i class="material-icons">close</i> Batal</button>
+	</div>
 </form>
