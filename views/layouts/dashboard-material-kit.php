@@ -96,9 +96,13 @@ app\assets\StyleAsset::register($this);
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
 			<div class="container-fluid">
-				<div class="navbar-wrapper">
-					<a class="navbar-brand" href="#pablo">Dashboard</a>
-				</div>
+				<nav aria-label="breadcrumb" role="navigation">
+					<ol class="breadcrumb bg-transparent">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
+						<li class="breadcrumb-item"><a href="#">Transaksi Pembelian</a></li>
+						<li class="breadcrumb-item active" aria-current="page">View</li>
+					</ol>
+				</nav>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="navbar-toggler-icon icon-bar"></span>

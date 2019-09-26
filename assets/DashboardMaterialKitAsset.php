@@ -22,6 +22,7 @@ class DashboardMaterialKitAsset extends AssetBundle
     ];
     public $css = [
         'css/material-dashboard.css?v=2.1.1',
+        'css/material-kit.css?v=2.1.1',
         'demo/demo-dashboard.css',
         // more plugin CSS here
     ];
