@@ -1,5 +1,6 @@
 <?php
 app\assets\MaterialKitDateTimePickerAsset::register($this);
+app\assets\MaterialKitSelect2Asset::register($this);
 ?>
 
 <form id="form">
@@ -70,6 +71,14 @@ app\assets\MaterialKitDateTimePickerAsset::register($this);
 				<input type="text" class="form-control" id="exampleInput1">
 				<span class="bmd-help">Block Helper.</span>
 			</div>
+			<div class="form-group">
+				<label for="exampleInput1" class="bmd-label-floating">Select2</label>
+				<select class="select2" id="select2" name="state">
+					<option></option>
+					<option value="AL">Alabama</option>
+					<option value="WY">Wyoming</option>
+				</select>
+			</div>
 		</div>
 		
 
@@ -97,6 +106,11 @@ app\assets\MaterialKitDateTimePickerAsset::register($this);
 			clear: 'fa fa-trash',
 			close: 'fa fa-remove'
 		}
+	});
+	//Initialize Select2 Elements
+	$('.select2').select2({
+		placeholder: "Select an option",
+		allowClear: true,
 	});
 JS;
 $this->registerJs($script); ?> 

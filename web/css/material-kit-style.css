@@ -22,6 +22,11 @@
     color: #555 !important;
 }
 
+/* select2 style */
+.select2-container {
+    width: 100% !important;
+}
+
 @media only screen and (max-width: 600px) {
     .with-overflow {
         overflow: auto;
